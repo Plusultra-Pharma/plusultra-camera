@@ -1,6 +1,6 @@
 # Detector Application
 
-![Detector Application](img/before_photo.png)
+![Detector Application](img/gallery.png)
 
 ## How It Works
 
@@ -20,42 +20,61 @@ After the user navigates to Detector tab, they can tap/click on the camera butto
 
 ## Configuration
 
-	## Template
-	$ ionic start camera tabs --type=angular --capacitor
-	$ cd camera
+* Template
+
+    	$ ionic start detector sidemenu --type=angular --capacitor
+	    $ cd detector
 	
-	## Installing Capacitor and PWA frameworks
-	$ npm install @capacitor/camera @capacitor/storage @capacitor/filesystem
-	$ npm install @ionic/pwa-elements
+	    ## Installing Capacitor and PWA frameworks
+	    $ npm install @capacitor/camera @capacitor/storage @capacitor/filesystem
+	    $ npm install @ionic/pwa-elements
 	
-	## Generating photo service template
-	$ ionic generate service services/photo
+	    ## Generating photo service template
+	    $ ionic generate service services/photo
 	
-	## 
-	
+	    ## Adding platform
+	    $ ionic cap add android	
+	    $ ionic cap copy
+	    $ ionic cap sync
+
+
+* Splash screen [resource script](https://gist.github.com/dalezak/a6b1de39091f4ace220695d72717ac71#file-resources-js)
+
+        ## Adding resources
+        $ npm install cordova-res --save-dev
+        ## Add "resources": "cordova-res ios && cordova-res android && node scripts/resources.js" to scripts in package.json
+        ## resources.js file to scripts/resources.js
+        $ sudo chmod -R 777 scripts/resources.js
+        $ npm run resources
+
 
 ## Running in emulator
 
-    $ ionic cap run android -l --external
+        $ ionic cap run android -l --external
 
 ## Application overview
 After opening the application, click the 'Camera' bottun. Then, one can take the photo and can analyze it.
 
 ![Detector Mode](img/detector.png)
 
-![Taking photo](img/taking_photo.png)
+![Sidemenu](img/sidemenu.png)
 
-![Before Photo Analyzer](img/before_photo.png)
+![Gallery](img/gallery.png)
+
+![Impressum](img/impressum.png)
 
 
 ## Reference
 
  * https://ionicframework.com/docs/angular/your-first-app
+ * https://analyticsindiamag.com/10-face-datasets-to-start-facial-recognition-projects/
 
 
 ## History
 
  * Ver. 0.1 - 2022.Apr.08, Prototype for a testbed.
+ * Ver. 0.2 - 2022.Apr.13, Prototype. Using sidemenu
+ 
 
 ## License
 
