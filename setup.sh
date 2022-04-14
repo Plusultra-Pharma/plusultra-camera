@@ -19,3 +19,5 @@ npm run resources
 #ionic generate page camera
 #ionic generate service services/photo
 #ionic generate component impressum
+# npm install --save ion2-calendar@next moment
+

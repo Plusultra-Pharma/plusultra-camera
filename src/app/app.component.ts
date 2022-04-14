@@ -10,6 +10,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     { title: 'Camera', url: 'camera', icon: 'camera' },
+    { title: 'Analyze', url: 'analyze', icon: 'flask' },
+    { title: 'Calendar', url: 'calendar', icon: 'calendar' },    
   ];
   public labels = ['Impressum'];
   
