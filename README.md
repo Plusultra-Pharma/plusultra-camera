@@ -61,6 +61,8 @@ After opening the application, click the 'Camera' bottun. Then, one can take the
 
 ![Gallery](img/gallery.png)
 
+![Gallery](img/calendar.png)
+
 ![Impressum](img/impressum.png)
 
 
@@ -69,6 +71,7 @@ After opening the application, click the 'Camera' bottun. Then, one can take the
  * https://ionicframework.com/docs/angular/your-first-app
  * https://analyticsindiamag.com/10-face-datasets-to-start-facial-recognition-projects/
  * https://www.positronx.io/ionic-calendar-ui-tutorial-examples-from-scratch/
+ * https://ionicframework.com/docs/v3/ionicons/
 
 ## History
 
