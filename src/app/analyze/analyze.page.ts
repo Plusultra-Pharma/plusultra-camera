@@ -11,5 +11,12 @@ export class AnalyzePage implements OnInit {
 
   ngOnInit() {
   }
-
+/*
+  takeSnap() {
+    this.cameraPreview.takeSnapshot({quality: 85}).then((data) => {
+       this.currentImage = 'data:image/jpeg;base64,' + data;
+       requestAnimationFrame(takeSnap)
+    });
+  }
+*/
 }

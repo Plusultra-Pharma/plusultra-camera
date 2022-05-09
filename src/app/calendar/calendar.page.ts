@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./calendar.page.scss'],
 })
 export class CalendarPage implements OnInit {
-
+  date: string;
+  type: 'sting';
+  
   constructor() { }
 
   ngOnInit() {
   }
-
+  onChange($event){
+    console.log($event);
+  }
 }

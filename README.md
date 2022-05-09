@@ -6,7 +6,9 @@
 
 After the user navigates to Detector tab, they can tap/click on the camera button to open up the device's camera. After taking or selecting a photo, it's stored permanently into the device's filesystem. When the user reopens the app at a later time, the photo images are loaded from the filesystem and displayed again in the gallery.
 
-## Feature Overview
+
+## Feature Overview and Development Environments
+* OS: Ubuntu 20.04
 * App framework: [Angular](https://angular.io)
 * UI components: [Ionic Framework](https://ionicframework.com/docs/components)
   * Camera button: [Floating Action Button (FAB)](https://ionicframework.com/docs/api/fab)
@@ -68,10 +70,24 @@ After opening the application, click the 'Camera' bottun. Then, one can take the
 
 ## Reference
 
- * https://ionicframework.com/docs/angular/your-first-app
- * https://analyticsindiamag.com/10-face-datasets-to-start-facial-recognition-projects/
- * https://www.positronx.io/ionic-calendar-ui-tutorial-examples-from-scratch/
- * https://ionicframework.com/docs/v3/ionicons/
+ * Ionic First Application: https://ionicframework.com/docs/angular/your-first-app
+
+ * Calendar on Ionic: https://www.positronx.io/ionic-calendar-ui-tutorial-examples-from-scratch/
+ * Calendar Modal on Ionic5: https://devdactic.com/ionic-5-calendar-modal/
+ * Tutorial of Calendar: https://www.youtube.com/watch?v=_hVdPEmbwA0&t=74s
+ 
+ * Ionic Icons: https://ionicframework.com/docs/v3/ionicons/
+
+ * Camera emulator with Android Emulator: https://marcelog.github.io/articles/android_emulator_linux_virtual_webcam_video_device.html
+
+ * Datasets for Face Recognition: https://analyticsindiamag.com/10-face-datasets-to-start-facial-recognition-projects/
+
+ * Streaming a camera device use it for face recognition: https://stackoverflow.com/questions/62240143/how-to-stream-a-device-camera-in-ionic-angular-and-use-it-with-tensorflowjs-for
+
+ * Camera preview with Ionic and Capacitor: https://www.youtube.com/watch?v=JA8k738i9jQ
+
+* capacitor camera preview in ionic app: https://www.youtube.com/watch?v=byDynneVW_A
+
 
 ## History
 

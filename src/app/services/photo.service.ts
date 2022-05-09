@@ -19,9 +19,9 @@ export class PhotoService {
   public async addNewToGallery() {
     // Take a photo
     const capturedPhoto = await Camera.getPhoto({
-    	  resultType: CameraResultType.Uri,
-	  source: CameraSource.Camera,
-    	  quality: 100
+    		resultType: CameraResultType.Uri,
+	  		source: CameraSource.Camera,
+    		quality: 100
   	  });
 
    // Save the picture and add it to photo collection
